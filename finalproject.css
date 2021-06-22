@@ -1,0 +1,25 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+h1{
+    text-align: left !important;
+}
+header {
+    height: 4rem;
+}
+header>nav>ul {
+    list-style: none;
+    padding: 1rem;
+}
+header>nav>ul>li {
+    display: inline-block;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+}
