@@ -9,9 +9,9 @@ a {
     color: unset;
 }
 h1{
-    text-align: left !important;
+    text-align: left;
 }
-header {
+header > nav{
     height: 4rem;
 }
 header>nav>ul {
@@ -22,4 +22,26 @@ header>nav>ul>li {
     display: inline-block;
     border-radius: 25px;
     padding: .5rem 1rem;
+}
+header .hero-wrapper img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+}
+footer{
+    height: 200px;
+    background-color: aqua;
+    text-align: center;
+}
+footer .row::after{
+    content: "";
+    clear: both;
+    
+}
+footer .column{
+    float: left;
+    width: 50%;
+    margin-top: 0.5rem;
 }
